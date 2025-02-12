@@ -27,8 +27,9 @@ body {
   text-decoration: none;
 }
 .site-head a:hover {
-  color: hsla(240, 20%, 80%, 0.8);
+  color: hsla(240, 81%, 46%, 0.8);
   text-decoration: underline;
+  background-color: aqua;
 }
 .nav-list {
   list-style: none;
@@ -54,6 +55,10 @@ img {
 }
 .hero-content {
   color:#dbdce9;
+  --color-dark: black;
+  --color-light: white;
+  --color-primary: rgb(24, 12, 188);
+  --color-secondary: rgb(165, 23, 183);
 }
 .hero-content h1 {
   font-size: 7rem;
@@ -86,3 +91,4 @@ img {
   border-radius: 100%;
   aspect-ratio: 1;
 }
+
