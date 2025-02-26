@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 body {
-  font-family: sans-serif;
+  font-family: Georgia,Times,serif,sans-serif;
   font-size: 1.2rem;
 }
 .site-head {
@@ -16,7 +16,7 @@ body {
   text-transform: uppercase;
   font-weight: 600;
 
-  color: #fff;
+  color: #90c6b0;
   background-color: #02040e;
   border-bottom: 6px solid hsl(240, 50%, 40%);
 
@@ -29,7 +29,7 @@ body {
 .site-head a:hover {
   color: hsla(240, 81%, 46%, 0.8);
   text-decoration: underline;
-  background-color: aqua;
+  background-color: rgb(1, 6, 6);
 }
 .nav-list {
   list-style: none;
@@ -54,9 +54,9 @@ img {
   grid-area: hero;
 }
 .hero-content {
-  color:#dbdce9;
+  color:#2948a8fa;
   --color-dark: black;
-  --color-light: white;
+  --color-light: rgb(255, 255, 255);
   --color-primary: rgb(24, 12, 188);
   --color-secondary: rgb(165, 23, 183);
 }
@@ -73,8 +73,8 @@ img {
   margin-inline: auto;
 }
 .region {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 9rem;
+  padding-bottom: 1rem;
 }
 
 
@@ -91,4 +91,5 @@ img {
   border-radius: 100%;
   aspect-ratio: 1;
 }
+
 
