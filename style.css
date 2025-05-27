@@ -44,7 +44,10 @@ body {
 img {
   max-width: 100%;
   width: 100%;
+  display: block;
 }
+
+
 .hero {
   display: grid;
   grid-template-areas: "hero";
