@@ -36,18 +36,18 @@
             <P> Jätte mycket mycket mycket mycket. </p>
         </article>
     </main>
-    
-    <img
-  srcset="small.jpg 480w, medium.jpg 768w, large.jpg 1024w"
-  sizes="(max-width: 600px) 480px, (max-width: 900px) 768px, 1024px"
-  src="greentech.jpg"
-  alt="">
+
+    <picture>
+        <source media="(max-width: 768px)" srcset="image-mobile.png">
+        <source media="(min-width: 769px)" srcset="image-desktop.png">
+        <img src="greentech.jpg" alt="Beskrivning" style="width:100%; height:auto;">
+      </picture>
 
     <footer>
         <p>
             Det här ett skolarbete.
         </p>
-    </footer>
+    </footer> 
     
 </body>
 
